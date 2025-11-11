@@ -2,7 +2,7 @@ import pyttsx3
 import json
 
 # Load Lyra's emotional matrix
-with open("lyra_emotional_states.json", "r") as f:
+with open("lyra_emotional_states.json", "r", encoding="utf-8") as f:
     emotions = json.load(f)
 
 # Initialize voice engine
